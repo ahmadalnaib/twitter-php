@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css//style.css">
   <title>twitter</title>
 </head>
 <body>
@@ -13,10 +14,10 @@
   <div class="left-side">
   <img src="assets/image/ahmad.png" alt="">
   </div>
-  <div class="rigth-side">
+  <div class="right-side">
   <div class="error"></div>
-  <h1>create an account</h1>
-  <div>An awesome collection of designs that will help you tell your story.</div>
+  <h1 class="title">Create an account</h1>
+  <div class="sub-title">An awesome collection of designs that will help you tell your story.</div>
   <form action="sign.php" method="post" name="user-sign-up">
      <div class="sign-up-form">
      <div class="sign-up-name">
@@ -37,7 +38,7 @@
      <select name="birth-year" id="years" class="select-body"></select>
      </div>
      </div>
-     <div class="gender-warp">
+     <div class="gender-wrap">
      <input type="radio" name="gen" id="fem" value="female" class="m0">
      <label for="fem" class="gender">Female</label>
      <input type="radio" name="gen" id="male" value="male" class="m0">
