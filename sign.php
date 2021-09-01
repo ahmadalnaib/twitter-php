@@ -1,3 +1,14 @@
+<?php
+require_once('connect/DB.php');
+if(isset($_POST['first-name']) && !empty($_POST['first-name']))
+{
+
+}
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +39,7 @@
      <input type="text" name="email-mobile" id="up-email" placeholder="Mobile number or email address" class="text-input">
      </div>
      <div class="sign-up-password">
-     <input type="password" name="up-password" id="up-password" id="up-password" class="text-input">
+     <input type="password" name="up-password" id="up-password" id="up-password" class="text-input" placeholder="password">
      </div>
      <div class="sign-up-birthday">
      <div class="bday">Birthday</div>
